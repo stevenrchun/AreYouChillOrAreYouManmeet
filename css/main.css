@@ -92,11 +92,12 @@ body {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
   background: #ecf0f1;
   border: 0;
-  border-bottom: 2px solid #dadedf;
+  border-bottom: 4px solid #dadedf;
   cursor: pointer;
   -webkit-box-shadow: inset 0 -2px #dadedf;
   box-shadow: inset 0 -2px #dadedf;
   outline: none !important;
+  transition: border-bottom .3s, box-shadow .3s, outline .3s;
 }
 
 .button:active,
@@ -118,17 +119,6 @@ body {
   background-size: cover;
   background-position: center;
 }
-
-.manmeet {
-  transition: all 300ms;
-}
-
-.manmeet.grayscale {
-  filter: grayscale(1);
-}
-
-
-
 
 
 
